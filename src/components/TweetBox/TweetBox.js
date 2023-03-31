@@ -11,9 +11,9 @@ function TweetBox() {
     e.preventDefault();
 
     db.collection("posts").add({
-      displayName: "CodeWithNewtonSchool",
+      displayName: "Vipin Chauhan",
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-      username: "S@ndy__.cc",
+      username: "cvipin787",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
@@ -31,7 +31,7 @@ function TweetBox() {
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
-            placeholder="What's happening"
+            placeholder="What's happening ?"
             type="text"
           />
         </div>

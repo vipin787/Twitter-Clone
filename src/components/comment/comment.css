@@ -5,7 +5,7 @@
   margin-left: -70px;
 }
 .comment-btn {
-  background-color: #4caf50; /* Set background color */
+  background-color: var(--twitter-color); /* Set background color */
   border: none; /* Remove borders */
   color: white; /* Set text color */
   padding: 5px 8px; /* Set padding */
@@ -17,8 +17,11 @@
   cursor: pointer; /* Add cursor pointer */
   transition: background-color 0.3s ease; /* Add transition effect */
 }
+
 .comment-btn:hover {
-  background-color: #3e8e41;
+  color: var(--twitter-color) !important;
+  background-color: white;
+  border: 1px solid gray;
 }
 .add-comment {
   /* width: 100%; */

@@ -13,12 +13,12 @@ function Widgets() {
         <input placeholder="Search Twitter" type="text" />
       </div>
       <div className="widgets__widgetContainer">
-        <h2>Whats'happening</h2>
-        <TwitterTweetEmbed tweetId={"1635877514844205056"} />
+        <h2>What's happening</h2>
+        <TwitterTweetEmbed tweetId={"1641636943258877952"} />
 
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="Sandy__c"
+          screenName="@cvipin787"
           options={{ height: 400 }}
         />
 
@@ -26,7 +26,7 @@ function Widgets() {
           url={"https://facebook.com/sandeep Projects"}
           options={{
             text: "Subscribe my Youtube Channel #CodeWithNewtonSchool",
-            via: "sandyProjects"
+            via: "VipinProject"
           }}
         />
       </div>
